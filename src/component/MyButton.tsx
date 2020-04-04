@@ -1,10 +1,10 @@
-import React from 'react';
-import "../style/MyButton.css"
+import React from "react";
+import "../style/MyButton.css";
 
 interface mainProps {
-  children: string
+  children: string;
 }
 
-export const MyButton: React.FC<mainProps> = ({children}) => {
-  return <div className="buttonStyle">{children}</div>
-}
+export const MyButton: React.FC<mainProps> = ({ children }) => {
+  return <div className="buttonStyle">{children}</div>;
+};

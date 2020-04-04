@@ -16,7 +16,6 @@ const useStyles = makeStyles({
     margin: 0,
     padding: "10px",
     [theme.breakpoints.up("md")]: {
-      // Did this breakpoint this way so you would know I could do both kinds.  See /src/style/App.css for use of media query
       maxHeight: "550px",
       padding: "400px 10% 100px",
       marginLeft: "20px",
