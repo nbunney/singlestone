@@ -1,0 +1,26 @@
+.buttonStyle {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #2f3237;
+    background-color: #50E3C2;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buttonStyle:hover {
+    background-color: #50E300;
+}
+
+.buttonStyle:active {
+    background-color: #30C350;
+}
