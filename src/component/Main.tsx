@@ -12,7 +12,7 @@ const useStyles = makeStyles({
   main: {
     width: "100%",
     backgroundSize: "100VW",
-    margin: 0,
+    margin: "40px 0",
     padding: "10px",
     [theme.breakpoints.up("md")]: {
       // Did this breakpoint this way so you would know I could do both kinds.  See /src/style/App.css for use of media query

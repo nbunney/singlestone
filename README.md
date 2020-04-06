@@ -1,9 +1,9 @@
 ## Setup Instructions
 
 - first, run `git clone git@github.com:nbunney/singlestone.git` on the command line to retrieve this repository into an appropriate directory on your local system.
-- Second, change directory into the directory created, possibly `singlestone` and run `yarn install`.
-- Third, run the `yarn test` command to verify that the current codebase passes all unit tests.
-- Last, run `yarn start` which will run the current repository on localhost.  When this command is run it should display a URL that can be visited with a mobile divice on your local network.  See below for more details.
+- Second, change directory into the directory created, possibly `singlestone` and run `yarn install` or if you prefer `npm i`.
+- Third, run the `yarn test` [or `npm test`] command and then press `a` to run all tests to verify that the current codebase passes all unit tests.  You may press `q` to exit the test suite when you are done.
+- Last, run `yarn start` [or `npm start`]  which will run the current repository on localhost.  When this command is run it should display a URL that can be visited with a mobile divice on your local network.  See below for more details.
 
 ## Available Scripts
 
