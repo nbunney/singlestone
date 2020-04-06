@@ -10,7 +10,11 @@ export interface HeaderProps {
 const useStyles = makeStyles({
   logo: {
     width: "100px",
-    margin: "20px",
+    margin: "20px 30px",
+    [theme.breakpoints.up("md")]: {
+      // I used this here but check in style/App.css where I use more CSS oriented break points.
+      margin: "20px 0",
+    },
   },
   appBar: {
     [theme.breakpoints.up("md")]: {
