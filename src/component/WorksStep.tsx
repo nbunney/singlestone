@@ -10,11 +10,11 @@ const useStyles = makeStyles({
   step: {
     width: "98%",
     [theme.breakpoints.up("sm")]: {
-      width: "48%",
+      width: "50%",
     },
     [theme.breakpoints.up("md")]: {
       // Did this breakpoint this way so you would know I could do both kinds.  See /src/style/App.css for use of media query
-      width: "23%",
+      width: "25%",
     },
   },
   stepNumber: {

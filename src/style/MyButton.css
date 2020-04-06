@@ -1,26 +1,32 @@
 .buttonStyle {
-    width: 200px;
-    height: 40px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #2f3237;
-    background-color: #50E3C2;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 40px;
-    text-transform: uppercase;
-    transition: background-color 1s ease;
-    cursor: pointer;
-    text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #2f3237;
+  background-color: #50e3c2;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 40px 0 20px 20px;
+  text-transform: uppercase;
+  transition: background-color 1s ease;
+  cursor: pointer;
+  text-decoration: none;
 }
+@media only screen and (min-width: 600px) {
+  .buttonStyle {
+    margin-left: 0;
+  }
+}
+
 .buttonStyle:hover {
-    background-color: #50E300;
+  background-color: #50e300;
 }
 
 .buttonStyle:active {
-    background-color: #30C350;
+  background-color: #30c350;
 }
