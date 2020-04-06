@@ -11,8 +11,7 @@ interface mainProps {
 const useStyles = makeStyles({
   main: {
     width: "100%",
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
+    backgroundSize: "100VW",
     margin: 0,
     padding: "10px",
     [theme.breakpoints.up("md")]: {
@@ -32,8 +31,7 @@ export const Main: React.FC<mainProps> = ({ image }) => {
       <Typography variant={"h2"}>Monthy packages.</Typography>
       <Typography variant={"h2"}>Excitement delivered daily.</Typography>
       <Typography variant={"h3"}>
-        What’s the best way to shop for the latest video games and peripherals?
-        How about never shopping at all?
+        What’s the best way to shop for the latest video games and peripherals? How about never shopping at all?
         <br />
         You’ll get new stuff on your doorstep — every month.
       </Typography>

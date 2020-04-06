@@ -1,42 +1,33 @@
 import React from "react";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import { Typography } from "@material-ui/core";
-import theme from "../style/theme";
-import { MyButton } from "./MyButton";
-
-interface mainProps {
-  image: string;
-}
 
 const useStyles = makeStyles({
-  main: {
-    width: "100%",
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
-    margin: 0,
-    padding: "10px",
-    [theme.breakpoints.up("md")]: {
-      maxHeight: "550px",
-      padding: "400px 10% 100px",
-      marginLeft: "20px",
-    },
+  works: {
+    width: "80%",
+    backgroundColor: "white",
+    padding: "50px 10% 100px",
+  },
+  worksH2: {
+    textAlign: "center",
+    fontSize: "36px!important",
+    color: "#2f3237",
+  },
+  steps: {
+    display: "flex",
+    flexFlow: "row wrap",
+    margin: "0 0 0 -.5rem",
   },
 });
 
-export const Main: React.FC<mainProps> = ({ image }) => {
+export const HowItWorks: React.FC = () => {
   const classes = useStyles();
   return (
-    <div className={classes.main} style={{ backgroundImage: image }}>
-      <Typography variant={"h1"}>New Games & Accessories</Typography>
-      <Typography variant={"h2"}>Monthy packages.</Typography>
-      <Typography variant={"h2"}>Excitement delivered daily.</Typography>
-      <Typography variant={"h3"}>
-        What’s the best way to shop for the latest video games and peripherals?
-        How about never shopping at all?
-        <br />
-        You’ll get new stuff on your doorstep — every month.
+    <div className={classes.works}>
+      <Typography variant={"h2"} className={classes.worksH2}>
+        How It Works
       </Typography>
-      <MyButton>Get Started</MyButton>
+      <div className={classes.steps}></div>
     </div>
   );
 };

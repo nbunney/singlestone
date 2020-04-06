@@ -4,6 +4,7 @@ import MuiThemeProvider from "@material-ui/styles/ThemeProvider";
 import "./style/App.css";
 import { Header } from "./component/Header";
 import { Main } from "./component/Main";
+import { HowItWorks } from "./component/HowItWorks";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MuiThemeProvider theme={theme}>
         <Header logo={"./logo-endless.svg"} />
         <Main image={`url("./photo-couch.jpg")`} />
+        <HowItWorks></HowItWorks>
       </MuiThemeProvider>
     </div>
   );
