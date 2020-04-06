@@ -1,6 +1,6 @@
 ## Setup Instructions
 
-- first, `git clone git@github.com:nbunney/singlestone.git` this repository into an appropriate directory on your local system.
+- first, run `git clone git@github.com:nbunney/singlestone.git` on the command line to retrieve this repository into an appropriate directory on your local system.
 - Second, change directory into the directory created, possibly `singlestone` and run `yarn install`.
 - Third, run the `yarn test` command to verify that the current codebase passes all unit tests.
 - Last, run `yarn start` which will run the current repository on localhost.  When this command is run it should display a URL that can be visited with a mobile divice on your local network.  See below for more details.
