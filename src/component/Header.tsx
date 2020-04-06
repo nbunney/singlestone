@@ -14,7 +14,7 @@ const useStyles = makeStyles({
   },
   appBar: {
     [theme.breakpoints.up("md")]: {
-      // I used this here buth check in style/App.css where I use more CSS oriented break points.
+      // I used this here but check in style/App.css where I use more CSS oriented break points.
       padding: "0 10%",
     },
     backgroundColor: theme.palette.background.main,
