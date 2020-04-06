@@ -1,5 +1,5 @@
 import * as actionTypes from "./actionTypes";
-import { Action, Reducer } from "redux";
+import { Reducer } from "redux";
 import { CustomAction, saveWorks } from "./actions";
 
 export interface WorksContent {

@@ -10,8 +10,7 @@ export interface CustomAction extends Action {
   payload?: any;
 }
 
-const processWorks = (rawWorks: WorksRaw[]): Work[] => {
-  console.log(rawWorks);
+export const processWorks = (rawWorks: WorksRaw[]): Work[] => {
   const works: Work[] = rawWorks.map((rawWork) => {
     const content = rawWork.versionContent.reduce((a: WorksContent, c: WorksContent) =>
       !a || c.effectiveDate > a.effectiveDate ? c : a

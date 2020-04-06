@@ -8,13 +8,13 @@ import HowItWorks from "./component/HowItWorks";
 
 function App() {
   return (
-    <div className="App" style={{ width: "100%", overflowX: "hidden" }}>
-      <MuiThemeProvider theme={theme}>
+    <MuiThemeProvider theme={theme}>
+      <div className="App">
         <Header logo={"./logo-endless.svg"} />
         <Main image={`url("./photo-couch.jpg")`} />
         <HowItWorks />
-      </MuiThemeProvider>
-    </div>
+      </div>
+    </MuiThemeProvider>
   );
 }
 

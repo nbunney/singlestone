@@ -38,7 +38,7 @@ const HowItWorksComponent: React.FC<HowItWorksProps> = ({ state, loadWorks }) =>
 
   useEffect(() => {
     loadWorks();
-  }, []);
+  }, [loadWorks]);
 
   return (
     <div className={classes.works}>

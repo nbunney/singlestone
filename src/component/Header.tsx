@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import makeStyles from "@material-ui/core/styles/makeStyles";
 import theme from "../style/theme";
 
 export interface HeaderProps {
@@ -9,12 +9,12 @@ export interface HeaderProps {
 
 const useStyles = makeStyles({
   logo: {
-    fill: "rgb(80, 227, 194)",
     width: "100px",
     margin: "20px",
   },
   appBar: {
     [theme.breakpoints.up("md")]: {
+      // I used this here buth check in style/App.css where I use more CSS oriented break points.
       padding: "0 10%",
     },
     backgroundColor: theme.palette.background.main,
